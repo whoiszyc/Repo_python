@@ -1,7 +1,11 @@
-# Test: custom module creation and import
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Sep 28 09:32:51 2018
 
-
-# Create Fibonacci numbers module
+@author: yichen.zhang
+"""
+# Fibonacci numbers module
+print("Initialization completed")
 
 def fib(n):    # write Fibonacci series up to n
     a, b = 0, 1
@@ -19,4 +23,6 @@ def fib2(n):   # return Fibonacci series up to n
     return result
 
 if __name__ == "__main__":
-    print("This part will run only when this module is used as the main function")
+    import sys
+    fib(int(sys.argv[1]))
+

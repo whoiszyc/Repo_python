@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Sep 28 09:51:13 2018
-
-@author: yichen.zhang
-"""
+# Import module named fibo
 
 import fibo
 
