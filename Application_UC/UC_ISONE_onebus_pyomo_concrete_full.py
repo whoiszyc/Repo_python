@@ -196,6 +196,8 @@ model.obj_gen_cost=Objective(rule=obj_gen_cost)
 
 opt = SolverFactory("glpk")
 results_normal = opt.solve(model)
+print(results_normal['solver'][0]['Termination condition'])
+
 
 """
 Visualize the results
