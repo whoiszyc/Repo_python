@@ -193,6 +193,7 @@ def obj_gen_cost(model):
                    for t in iter_hour) for i in iter_gen)
 model.obj_gen_cost=Objective(rule=obj_gen_cost)
 
+
 opt = SolverFactory("glpk")
 results_normal = opt.solve(model)
 
