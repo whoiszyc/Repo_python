@@ -41,7 +41,7 @@ model.volume = Constraint(rule=volume_rule)
 
 
 instance = model.create_instance('diet.dat')
-opt = SolverFactory("glpk")
+opt = SolverFactory("cplex", executable = '/Applications/CPLEX_Studio128/cplex/bin/x86-64_osx/cplex')
 results = opt.solve(instance)
 results.write()
 
