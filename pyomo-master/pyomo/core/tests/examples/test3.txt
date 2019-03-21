@@ -1,0 +1,5 @@
+[    0.00] Setting up Pyomo environment
+[    0.00] Applying Pyomo preprocessing actions
+[    0.00] Creating model
+[    0.00] Pyomo Finished
+Exiting pyomo solve: A model is not defined and the 'pyomo_create_model' is not provided in module pmedian1.py

@@ -1,0 +1,48 @@
+Model unknown
+
+  Variables:
+    x : Size=1, Index=None
+        Key  : Lower : Value : Upper : Fixed : Stale : Domain
+        None :  None :     1 :  None : False : False :  Reals
+    y : Size=1, Index=a
+        Key : Lower : Value : Upper : Fixed : Stale : Domain
+          1 :  None :     1 :  None : False : False :  Reals
+
+  Objectives:
+    obj : Size=1, Index=None, Active=True
+        Key  : Active : Value
+        None :   True :     2
+    obj2 : Size=3, Index=a, Active=True
+        Key : Active : Value
+          1 :   True :     3
+          2 :   True :     4
+          3 :   True :     5
+
+  Constraints:
+    con : Size=1
+        Key  : Lower : Body : Upper
+        None :   1.0 :    2 :   2.0
+    con2 : Size=3
+        Key : Lower : Body : Upper
+          1 :   1.0 :    3 :   2.0
+          2 :   1.0 :    4 :   2.0
+          3 :   1.0 :    5 :   2.0
+obj : Size=1, Index=None, Active=True
+    Key  : Active : Value
+    None :   True :     2
+x : Size=1, Index=None
+    Key  : Lower : Value : Upper : Fixed : Stale : Domain
+    None :  None :     1 :  None : False : False :  Reals
+con : Size=1
+    Key  : Lower : Body : Upper
+    None :   1.0 :    2 :   2.0
+x + 1Model unknown
+
+  Variables:
+    None
+
+  Objectives:
+    None
+
+  Constraints:
+    None
