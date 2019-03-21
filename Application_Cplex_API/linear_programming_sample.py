@@ -48,4 +48,5 @@ myProblem.objective.set_sense(myProblem.objective.sense.minimize)
 
 # Solve the model and print the answer
 myProblem.solve()
-print(myProblem.solution.get_values())
+# myProblem.conflict.get()
+# print(myProblem.solution.get_values())
