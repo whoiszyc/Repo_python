@@ -1,0 +1,5 @@
+[    0.00] Setting up Pyomo environment
+[    0.00] Applying Pyomo preprocessing actions
+[    0.00] Creating model
+[    0.00] Pyomo Finished
+Exiting pyomo solve: Model 'dummy' is not defined in file 'pmedian.py'!
