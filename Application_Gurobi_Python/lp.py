@@ -13,7 +13,7 @@ from gurobipy import *
 
 if len(sys.argv) < 2:
     print('Usage: lp.py filename')
-    quit()
+    sys.exit()
 
 # Read and solve model
 

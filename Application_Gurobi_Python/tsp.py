@@ -53,7 +53,7 @@ def subtour(edges):
 
 if len(sys.argv) < 2:
     print('Usage: tsp.py npoints')
-    exit(1)
+    sys.exit(1)
 n = int(sys.argv[1])
 
 # Create n random points
