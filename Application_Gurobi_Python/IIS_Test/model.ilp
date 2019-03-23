@@ -1,0 +1,12 @@
+\ Model IIS_test_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ R1: x + y <= 11
+ R2: x >= 6
+ R3: y >= 6
+Bounds
+ x free
+ y free
+End

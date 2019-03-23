@@ -8,7 +8,6 @@
 # Note that this example reads an external data file (..\data\diet.db).
 # As a result, it must be run from the Gurobi examples/python directory.
 
-import os
 import sqlite3
 from gurobipy import *
 

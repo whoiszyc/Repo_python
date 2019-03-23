@@ -1,0 +1,87 @@
+
+Gurobi 8.1.0 (mac64, Python) logging started Sat Mar 23 16:56:55 2019
+
+Academic license - for non-commercial use only
+
+Gurobi 8.1.0 (mac64, Python) logging started Sat Mar 23 16:59:34 2019
+
+Academic license - for non-commercial use only
+
+Gurobi 8.1.0 (mac64, Python) logging started Sat Mar 23 17:00:05 2019
+
+Academic license - for non-commercial use only
+Optimize a model with 3 rows, 2 columns and 4 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [6e+00, 1e+01]
+Presolve removed 2 rows and 2 columns
+Presolve time: 0.00s
+
+Solved in 0 iterations and 0.00 seconds
+Infeasible model
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   1.200000e+01   0.000000e+00      0s
+
+IIS computed: 3 constraints and 0 bounds
+IIS runtime: 0.00 seconds
+
+Gurobi 8.1.0 (mac64, Python) logging started Sat Mar 23 17:07:14 2019
+
+Academic license - for non-commercial use only
+Optimize a model with 4 rows, 2 columns and 6 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [2e+00, 1e+01]
+Presolve removed 3 rows and 2 columns
+Presolve time: 0.00s
+
+Solved in 0 iterations and 0.00 seconds
+Infeasible model
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   1.400000e+01   0.000000e+00      0s
+
+IIS computed: 3 constraints and 0 bounds
+IIS runtime: 0.00 seconds
+
+Gurobi 8.1.0 (mac64, Python) logging started Sat Mar 23 17:08:15 2019
+
+Academic license - for non-commercial use only
+Optimize a model with 3 rows, 2 columns and 5 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [2e+00, 1e+01]
+Presolve removed 3 rows and 2 columns
+Presolve time: 0.00s
+Presolve: All rows and columns removed
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    6.0000000e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 0 iterations and 0.01 seconds
+Optimal objective  6.000000000e+00
+IIS runtime: 0.00 seconds
+
+Gurobi 8.1.0 (mac64, Python) logging started Sat Mar 23 17:08:56 2019
+
+Academic license - for non-commercial use only
+Optimize a model with 4 rows, 2 columns and 6 nonzeros
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [2e+00, 1e+01]
+Presolve removed 3 rows and 2 columns
+Presolve time: 0.00s
+
+Solved in 0 iterations and 0.00 seconds
+Infeasible model
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   1.400000e+01   0.000000e+00      0s
+
+IIS computed: 3 constraints and 0 bounds
+IIS runtime: 0.00 seconds
