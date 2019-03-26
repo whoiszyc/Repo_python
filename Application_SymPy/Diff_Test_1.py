@@ -17,6 +17,10 @@ for i in f:
     a=[]
     print(i)
     for j in symvar:
-        a.append(diff(i,j))
+        a.append(float(diff(i,j)))
     A.append(a)
     print(A)
+
+# before using linear algebraic tool, convert the data type first
+xx = la.eig(A)
+print(xx)
