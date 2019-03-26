@@ -27,9 +27,9 @@ t2,y2 = signal.step(sys2)
 # (3) ODE Integrator
 def model3(x,t):
     y = x[0]
-    dydt = x[1]
-    dy2dt2 = (-2.0*zeta*tau*dydt - y + Kp*du)/tau**2
-    return [dydt,dy2dt2]
+    dydt_1 = x[1]
+    dydt_2 = (-2.0*zeta*tau*dydt_1 - y + Kp*du)/tau**2
+    return [dydt_1, dydt_2]
 t3 = np.linspace(0,25,100)
 x3 = odeint(model3,[0,0],t3)
 y3 = x3[:,0]
