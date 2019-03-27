@@ -1,4 +1,6 @@
-# Code test and practice in Python 3.x from the following resources:
+# Source code references and code test in Python 3.x
+
+Some reference sources:
 
 #Main online source
 Python 3.6.7rc1 documentation @ https://docs.python.org/3.6/index.html
