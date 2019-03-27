@@ -24,3 +24,8 @@ for i in f:
 # before using linear algebraic tool, convert the data type first
 xx = la.eig(A)
 print(xx)
+
+
+# change symbolic variable to string
+x_name = str(x)
+type(x_name)
