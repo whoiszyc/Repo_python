@@ -4,7 +4,7 @@ import pandas as pd
 
 
 # test the first data frame
-df=pd.read_csv('test_1.csv')
+df=pd.read_csv('test_2.csv')
 print(df)
 
 # general information of the data frame
@@ -21,5 +21,5 @@ print(df.iloc[1:2,:])
 
 # get entry by key
 print('The column that key equals to "a" is:')
-print(df['a'])
+print(df[0])
 
