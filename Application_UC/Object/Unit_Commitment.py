@@ -9,7 +9,7 @@ from pyomo.environ import *
 from collections import OrderedDict
 import operator
 
-import Func_IEEETestCase
+
 
 """
 Day-ahead unit commitment problem
@@ -440,6 +440,7 @@ class UnitCommitment:
 Import the studied system data using matpower/pypower format
 """
 # Read IEEE 39 bus system data
+import Func_IEEETestCase
 pppc=Func_IEEETestCase.case39() # dictionary data
 
 
