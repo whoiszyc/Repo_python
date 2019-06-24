@@ -6,3 +6,5 @@
 
 # Or import everything from the module
 # from .fibo import *
+
+print("Initialization completed")

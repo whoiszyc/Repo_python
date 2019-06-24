@@ -5,7 +5,7 @@ Created on Fri Sep 28 09:32:51 2018
 @author: yichen.zhang
 """
 # Fibonacci numbers module
-print("Initialization completed")
+
 
 def fib(n):    # write Fibonacci series up to n
     a, b = 0, 1

@@ -5,6 +5,6 @@
 #   from .fibo import fib
 #   from .fibo import fib2
 
-import Fibonacci
+import Fibonacci  # In this case, if the "__init__.py" is empty, then the system dose not know the path inside Fibonacci
 
 print(Fibonacci.fibo.fib(10))
