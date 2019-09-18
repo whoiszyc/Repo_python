@@ -20,6 +20,16 @@ print('Second to third row of the data frame')
 print(df.iloc[1:2,:])
 
 # get entry by key
-print('The column that key equals to "a" is:')
-print(df[0])
+print('The column that key equals to 0 is:')
+# problem using csv is that the numerical key 0 after reading needs '0', that is, print(df[0]) give error
+# So it is better to use excel file
+print(df['0'])
 
+# read excel file
+df_1 = pd.read_excel('test_2.xls')
+print('The column that key equals to 0 is:')
+print(df_1[0])
+
+# convert to dict
+dc = df_1.to_dict()
+print(type(dc))

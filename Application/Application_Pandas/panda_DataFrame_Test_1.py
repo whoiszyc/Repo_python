@@ -31,7 +31,7 @@ print(df['a'])
 
 # save data frame to csv
 df.to_csv('test_1.csv')
-
+df.to_excel('test_1.xls')
 
 # test the second data frame
 # get entry by key
@@ -42,3 +42,4 @@ print(df[0])
 
 # save data frame to csv
 df.to_csv('test_2.csv', encoding='utf-8')
+df.to_excel('test_2.xls')
