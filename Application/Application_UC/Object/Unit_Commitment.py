@@ -612,7 +612,7 @@ u.get_cost()
 ## define UC without power flow
 u.define_pyomo_model('Concrete')
 u.define_problem('UC')
-u.solve_problem('glpk', 1)
+u.solve_problem('gurobi', 1)
 gen_power_normal = u.get_solution_2d('Pg', u.iter_gen, u.iter_time)
 gen_power_status = u.get_solution_2d('status', u.iter_gen, u.iter_time)
 gen_power_normal.plot_step_2d(u.iter_gen_name, 'Time (h)', 'Power (MW)', 'Generator Output', (12, 5))
