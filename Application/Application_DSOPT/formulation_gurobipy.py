@@ -619,28 +619,28 @@ if __name__ == "__main__":
     # # # ----------------------------------------
     # # #           co-optimization model
     # # # ----------------------------------------
-    # cop = fg.OutageManageGurobi()
-    # cop.data_preparation(ppc, vrp)
-    # cop.form_cop()
+    # test_1 = fg.OutageManageGurobi()
+    # test_1.data_preparation(ppc, vrp)
+    # test_1.form_cop()
     #
     # # # set solver parameters
-    # cop.model.Params.MIPGap = 0.02
+    # test_1.model.Params.MIPGap = 0.02
     #
     # # # solve problem
-    # cop.model.update()
-    # cop.model.optimize()
+    # test_1.model.update()
+    # test_1.model.optimize()
     #
     # # # # get objective function value of MIP
-    # ObjVal_cop = cop.model.objVal
+    # ObjVal_cop = test_1.model.objVal
     # print('objective is {}'.format(ObjVal_cop))
-    # cop.get_solution_route()
-    # load_status = cop.get_solution_2d('rho', cop.iter_bus, cop.iter_time)
+    # test_1.get_solution_route()
+    # load_status = test_1.get_solution_2d('rho', test_1.iter_bus, test_1.iter_time)
     # load_status.plot_bin_2d()
-    # line_status = cop.get_solution_2d('ul', cop.iter_line, cop.iter_time)
+    # line_status = test_1.get_solution_2d('ul', test_1.iter_line, test_1.iter_time)
     # line_status.plot_bin_2d()
-    # line_flow = cop.get_solution_2d('P', ['line_1'], cop.iter_time)
+    # line_flow = test_1.get_solution_2d('P', ['line_1'], test_1.iter_time)
     # line_flow.plot_step_2d()
-    # repair_status = cop.get_solution_2d('z', cop.ordered_vertex, cop.iter_time)
+    # repair_status = test_1.get_solution_2d('z', test_1.ordered_vertex, test_1.iter_time)
     # repair_status.plot_bin_2d()
 
     # # # # ----------------------------------------
@@ -678,7 +678,7 @@ if __name__ == "__main__":
     # mp.test_crew_dispatch()
     #
     # # # set solver parameters
-    # # cop.model.Params.MIPGap = 0.02
+    # # test_1.model.Params.MIPGap = 0.02
     #
     # # # solve problem
     # mp.model.update()
@@ -690,7 +690,7 @@ if __name__ == "__main__":
     # mp.get_solution_route()
     # repair_status = mp.get_solution_2d('z', mp.ordered_vertex, mp.iter_time)
     # repair_status.plot_bin_2d()
-    # # line_flow = cop.get_solution_2d('P', ['line_1'], cop.iter_time)
+    # # line_flow = test_1.get_solution_2d('P', ['line_1'], test_1.iter_time)
     # # line_flow.plot_step_2d()
 
     # # # ----------------------------------------
@@ -701,7 +701,7 @@ if __name__ == "__main__":
     # mp.test_network_operation()
     #
     # # # set solver parameters
-    # # cop.model.Params.MIPGap = 0.02
+    # # test_1.model.Params.MIPGap = 0.02
     #
     # # # solve problem
     # mp.model.update()
@@ -723,7 +723,7 @@ if __name__ == "__main__":
     # mp.test_network_operation_int()
 
     # # set solver parameters
-    # cop.model.Params.MIPGap = 0.02
+    # test_1.model.Params.MIPGap = 0.02
 
     # # # solve problem
     # mp.model.update()

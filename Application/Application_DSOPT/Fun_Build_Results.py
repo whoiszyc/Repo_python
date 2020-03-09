@@ -206,7 +206,7 @@ def network_flow_MIP(model, res, vrp, ppc):
             res['p'][i].append(value(model.p[i, t]))
             res['q'][i].append(value(model.q[i, t]))
 
-    # Voltage change at each bus w.r.cop time
+    # Voltage change at each bus w.r.test_1 time
     fig = plt.figure(figsize=(12, 5))
     ax = fig.add_subplot(111, projection='3d')
     for i in iter_bus:
@@ -222,7 +222,7 @@ def network_flow_MIP(model, res, vrp, ppc):
     # plt.show()
     plt.title('Voltage')
 
-    # Active power change at each bus w.r.cop time
+    # Active power change at each bus w.r.test_1 time
     fig = plt.figure(figsize=(12, 5))
     ax = fig.add_subplot(111, projection='3d')
     for i in iter_line:

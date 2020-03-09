@@ -306,12 +306,12 @@ while loop_count < 2:
 
 
 
-# load_status = cop.get_solution_2d('rho', cop.iter_bus, cop.iter_time)
+# load_status = test_1.get_solution_2d('rho', test_1.iter_bus, test_1.iter_time)
 # load_status.plot_bin_2d()
-# line_status = cop.get_solution_2d('ul', cop.iter_line, cop.iter_time)
+# line_status = test_1.get_solution_2d('ul', test_1.iter_line, test_1.iter_time)
 # line_status.plot_bin_2d()
-# line_flow = cop.get_solution_2d('P', ['line_1'], cop.iter_time)
+# line_flow = test_1.get_solution_2d('P', ['line_1'], test_1.iter_time)
 # line_flow.plot_step_2d()
-# repair_status = cop.get_solution_2d('z', cop.ordered_vertex, cop.iter_time)
+# repair_status = test_1.get_solution_2d('z', test_1.ordered_vertex, test_1.iter_time)
 # repair_status.plot_bin_2d()
 

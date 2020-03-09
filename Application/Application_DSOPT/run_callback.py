@@ -148,7 +148,7 @@ mp.model.optimize(branch_cut)
 # line_status.plot_bin_2d()
 # repair_status = mp.get_solution_2d('z', mp.ordered_vertex, mp.iter_time)
 # repair_status.plot_bin_2d()
-# line_flow = cop.get_solution_2d('P', ['line_1'], cop.iter_time)
+# line_flow = test_1.get_solution_2d('P', ['line_1'], test_1.iter_time)
 # line_flow.plot_step_2d()
 
 

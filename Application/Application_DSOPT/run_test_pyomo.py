@@ -30,41 +30,41 @@ vrp = c_d.crew_dispatch_determ()
 
 
 # # test co-optimization
-# cop = fm.OutageManagePyomo()
-# cop.data_preparation(ppc, vrp)
-# cop.form_cop()
+# test_1 = fm.OutageManagePyomo()
+# test_1.data_preparation(ppc, vrp)
+# test_1.form_cop()
 # opt = pm.SolverFactory("cplex", executable = '/Applications/CPLEX_Studio128/cplex/bin/x86-64_osx/cplex')
 # opt.options['mipgap'] = 0.02  # if gap=b, then it is (b*100) %
-# results = opt.solve(cop.model, tee = True)
+# results = opt.solve(test_1.model, tee = True)
 # print(results['solver'][0]['Termination condition'])
-# cop.get_solution_route()
-# load_status = cop.get_solution_2d('rho', cop.iter_bus, cop.iter_time)
+# test_1.get_solution_route()
+# load_status = test_1.get_solution_2d('rho', test_1.iter_bus, test_1.iter_time)
 # load_status.plot_bin_2d()
-# line_status = cop.get_solution_2d('ul', cop.iter_line, cop.iter_time)
+# line_status = test_1.get_solution_2d('ul', test_1.iter_line, test_1.iter_time)
 # line_status.plot_bin_2d()
-# line_flow = cop.get_solution_2d('P', ['line_1'], cop.iter_time)
+# line_flow = test_1.get_solution_2d('P', ['line_1'], test_1.iter_time)
 # line_flow.plot_step_2d()
 
 
 
 # # test master problem
-# cop = fm.OutageManagePyomo()
-# cop.data_preparation(ppc, vrp)
-# cop.form_mp()
+# test_1 = fm.OutageManagePyomo()
+# test_1.data_preparation(ppc, vrp)
+# test_1.form_mp()
 # # opt = pm.SolverFactory("cplex", executable = '/Applications/CPLEX_Studio128/cplex/bin/x86-64_osx/cplex') # solver_io="python" or "nl"
 # # opt.options['mipgap'] = 0.02  # if gap=b, then it is (b*100) %
 # opt = pm.SolverFactory("gurobi", solver_io="python")
-# results = opt.solve(cop.model, tee = True)
+# results = opt.solve(test_1.model, tee = True)
 # print(results['solver'][0]['Termination condition'])
-# print('objective is {}'.format(-cop.model.obj.value()))
-# cop.get_solution_route()
-# # load_status = cop.get_solution_2d('rho', cop.iter_bus, cop.iter_time)
+# print('objective is {}'.format(-test_1.model.obj.value()))
+# test_1.get_solution_route()
+# # load_status = test_1.get_solution_2d('rho', test_1.iter_bus, test_1.iter_time)
 # # load_status.plot_bin_2d()
-# # line_status = cop.get_solution_2d('ul', cop.iter_line, cop.iter_time)
+# # line_status = test_1.get_solution_2d('ul', test_1.iter_line, test_1.iter_time)
 # # line_status.plot_bin_2d()
-# # line_flow = cop.get_solution_2d('P', ['line_1'], cop.iter_time)
+# # line_flow = test_1.get_solution_2d('P', ['line_1'], test_1.iter_time)
 # # line_flow.plot_step_2d()
-# # repair_status = cop.get_solution_2d('z', cop.ordered_vertex, cop.iter_time)
+# # repair_status = test_1.get_solution_2d('z', test_1.ordered_vertex, test_1.iter_time)
 # # repair_status.plot_bin_2d()
 
 
