@@ -1,2 +1,0 @@
-cc : Size=0, Index=cc_index, Active=True
-    Key : Arg0 : Arg1 : Active

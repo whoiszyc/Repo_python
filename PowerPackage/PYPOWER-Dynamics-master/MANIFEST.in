@@ -1,3 +1,0 @@
-include *.md
-recursive-include examples *
-recursive-include pydyn *
